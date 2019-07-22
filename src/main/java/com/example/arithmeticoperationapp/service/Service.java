@@ -25,6 +25,6 @@ public class Service {
 	
 	@GetMapping("/")
 	private String test1() {
-		return "<H1>This is spring-boot app <B>from Openshift Changes</B></H1>";
+		return "<H1>This is updated spring-boot app from Openshift Changes</H1>";
 	}
 }
