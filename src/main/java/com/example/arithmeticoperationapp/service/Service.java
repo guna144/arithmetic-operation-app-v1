@@ -20,7 +20,7 @@ public class Service {
 	
 	@GetMapping("/test")
 	private String test() {
-		return "Testing done! <H1>123</H1> testing updated";
+		return "Testing done! <H1>123</H1> 1234567890 testing updated";
 	}
 	
 	@GetMapping("/")
